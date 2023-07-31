@@ -1,0 +1,60 @@
+/* @font-face {
+    font-family: myFirstFont;
+    src: url('https://fonts.google.com/specimen/Roboto');
+} */
+
+
+*,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+}
+
+.header {
+    padding: 0px 20px;
+    /*border-bottom: 1px solid #619cbc;*/
+    background-color: #619cbc;
+    color: white;
+}
+
+.header div {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 15%;
+}
+
+img {
+    width: 17%;
+    height: auto;
+}
+
+.header div select {
+    font-size: 18px;
+    outline: none;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px; 
+}
+
+.container {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#chart-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: auto;
+}
+
+#chart {
+    display: inline-block;
+    margin-top: 5%;
+    width: 30%;
+    height: 47vh;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}

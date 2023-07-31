@@ -1,0 +1,246 @@
+* {
+  box-sizing:border-box;
+  /* font-stretch: condensed; */
+}
+.space{
+    margin-top: 170px;
+}
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 500px;
+  height: auto; */
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides img{
+  max-width: 70vw;
+  max-height: 70vh;
+  margin-left: 30px;
+}
+
+/* Next & previous buttons */
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.cinema-info{
+    display: flex;
+    flex-direction: row;
+}
+.info-text{
+  width: 50%;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+.movies-container{
+    margin-top: 10px;
+}
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: 70px; */
+  
+  }
+  
+  .address-hotline p{
+    margin-top: 50px;
+  }
+  .address-hotline span{
+    font-weight: 1000;
+  }
+  .flex-container img{
+    width: 218px;
+    height: 299.44px;
+    border-radius: 34.5509px;
+  }
+  
+  
+  .mySlides img{
+    /* position: absolute; */
+    width: 1184px;
+    height: 592px;
+    left: calc(50% - 1184px/2 + 0.5px);
+    top: 0px;
+    border-radius: 34.5509px;
+  
+}
+  .search input{
+    box-sizing: border-box;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 27px 10px 27px;
+    gap: 10px;
+    /* left: 500px; */
+    margin-left: 55%;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 51px;
+
+    border: 1px solid #000000;
+    border-radius: 51px;
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+    
+  .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 230px;
+    /* position: absolute; */
+    left: 514px;
+  }
+  .movies{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 1.3em;
+    gap: 20px;
+  }
+  .container h3{
+    margin-top: 3px;
+    margin-block-start: 10px;
+    font-weight: bold;
+  }
+  .container b{
+    margin-top: 1px;
+    margin-block-start: 10px;
+  }
+  /* Pagination links */
+.pagination a {
+    display: inline-block;
+    /* flex-direction:row ; */
+    text-align: center ;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* float: left; */
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .movies-container {
+  width: 80%;
+  margin: 40px auto 0; /* Add margin-top to create space between the cards and the title */
+}
+
+/* Update styles for the flex container */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust alignment between movie cards */
+}
+
+/* Update styles for the individual movie card */
+.card {
+  width: calc(19% - 20px); /* Adjust the width to 23% minus the margin between cards */
+  margin: 10px; /* Add a margin between the cards */
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card .container {
+  padding: 16px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.card a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.card a:hover {
+  color: #004080;
+}
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  

@@ -1,0 +1,19 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 18, 2023, 10:47:19 AM
+    Author     : Admin
+*/
+
+@font-face {
+    font-family: 'OpenSans-VF';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic-VF';
+    src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf');
+}
+

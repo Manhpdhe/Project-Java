@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+.flex-card-container {
+    display: flex;
+    margin-left: 30%;
+}
+
+
+.container2 form {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+    padding: 20px;
+    width: 600px;
+    padding-top: 160px;
+
+}
+
+.container2 form .inputBox {
+    margin-top: 20px;
+
+}
+
+.container2 form .inputBox span {
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.container2 form .inputBox-1 {
+    display: block;
+    color: #fff;
+    padding-bottom: 5px;
+    background-color: #619CBC;
+    margin-top: 10px;
+    margin-left: 462px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.container2 form .inputBox input,
+.container2 form .inputBox select {
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #444;
+    margin-left: 5px;
+}
+
+.container2 form .flexbox {
+    display: flex;
+    gap: 15px;
+}
+
+.container2 form .flexbox .inputBox {
+    flex: 1 1 150px;
+}
+
+.container2 form .submit-btn {
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.container2 form .submit-btn:hover {
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.container2 .card-container {
+    margin-bottom: -150px;
+    position: relative;
+    height: 285px;
+    width: 520px;
+    margin-top: 370px;
+    margin-left: -573px;
+    border-radius: 20px;
+}
+
+.container2 .card-container .front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    padding: 20px;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform .4s ease-out;
+    border-radius: 13px;
+}
+
+.container2 .card-container .front .image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.container2 .card-container .front .image img {
+    height: 50px;
+}
+
+.container2 .card-container .front .card-number-box {
+    padding: 30px 0;
+    color: #fff;
+    margin-left: 1.1vh;
+    text-shadow: 4px 5px 7px #c0c0c0;
+    font-size: 4.3vh;
+    font-weight: 600;
+    font-family: monospace;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .card-container .front .flexbox {
+    display: flex;
+    margin-top: 1vh;
+}
+
+.container2 .card-container .front .flexbox .box:nth-child(1) {
+    margin-right: auto;
+    
+}
+
+.container2 .card-container .front .flexbox .box {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 1vh
+}
+.container2 .card-container .front .flexbox .box-1 {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 20vh
+}
+
+.container2 .card-container .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    transform: perspective(1000px) rotateY(180deg);
+    transition: transform .4s ease-out;
+}
+
+.container2 .card-container .back .stripe {
+    background: #000;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.container2 .card-container .back .box {
+    padding: 0 20px;
+}
+
+.container2 .card-container .back .box span {
+    color: #fff;
+    font-size: 15px;
+}
+
+.container2 .card-container .back .box .cvv-box {
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container2 .card-container .back .box img {
+    margin-top: 30px;
+    height: 30px;
+}
+
+.header-membership .my-card-information {
+    margin-top: 260px;
+}
+
+.table-card-information .table-card-information-font {
+    margin-top: 620px;
+    margin-left: -320px;
+}
+
+.table-card-information table {
+    border-collapse: collapse;
+    /* width: 100%; */
+    border: 2px solid black;
+
+}
+
+.table-card-information th {
+    background-color: #619CBC;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table-card-information th,
+.table-card-information td {
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

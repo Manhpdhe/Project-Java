@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 2, 2023, 12:29:15 PM
+    Author     : HP
+*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+table {
+    width: 45%;
+    border-collapse: collapse;
+    border: 1px solid;
+    
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 0px solid;
+    
+}
+
+th {
+    background-color: #619cbc;
+    color: white;
+
+}
+
+tr:nth-child(even) {
+    background-color: #b0ddf5;
+
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.text-tilte-cinema {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.text-tilte-cinema h1 {
+    margin-top: 100px;
+    color: #a5d9f5;
+    text-shadow: 1px 1px #619cbc ;
+}
+.code-frame {
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+    
+    background-size: cover;
+}
+.text-tilte-cinema {
+    text-align: center;
+    
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}

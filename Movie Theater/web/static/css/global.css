@@ -1,0 +1,376 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17-05-2023, 10:35:23
+    Author     : Admin
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'OpenSans-VF';
+    font-stretch: condensed;
+}
+
+#infobox {
+    background-color: rgb(220,220,220);
+    color: black;
+    position: fixed;
+    overflow: hidden;
+    margin-top: 7%;
+    right: 0;
+    top: 0;
+    margin-right: 2%;
+    border-radius: 20px;
+    z-index: 50;
+    width: 10%;
+    
+}
+
+#infobox a {
+    text-decoration: none;
+}
+
+#infobox p {
+    padding: 5% 10%;
+    font-size: 1.25rem;
+}
+
+#infobox p:hover {
+    background-color: rgb(205,205,205);
+    
+}
+
+
+html {
+    height: 100%;
+}
+
+
+.login-register-page{
+    overflow-x: hidden;
+    background: url('../images/geoffrey-moffett-TFRezw7pQwI-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: #619CBC;
+}
+.navbar a{
+    position: relative;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    font-size: 1.1em;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 5px;
+    gap: 2px;
+
+    width: 200px;
+    height: 40px;
+    left: 285px;
+    top: 31px;
+
+    border: 1px solid #ffffff;
+    border-radius: 26px;
+
+}
+
+.header-space {
+    height: 120px;
+}
+
+#location{
+    background: transparent;
+    color:#000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+    font-size: 1.1em;
+    border: none;
+
+}
+.navbar .btnLogin{
+    width: 153px;
+    height: 41px;
+    background: transparent;
+    border: none;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.logo{
+    width: 210px;
+    height: 88px;
+    margin-left: 30px;
+    left: 30px;
+    top: 17px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    float: right;
+}
+
+.form-box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    gap: 11px;
+    overflow: auto;
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow-x: hidden;
+    
+    }
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    /* gap: 7px;  */
+
+    /* position: absolute; */
+    width: 450px;
+    height: 115px;
+    left: 187px;
+    top: 223px;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    color: #969696;
+}
+#gender{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px 10px 27px;
+    gap: 10px;
+
+    width: 430px;
+    height: 51px;
+    border: 1px solid #000000;
+    border-radius: 51px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+.input-box input{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 27px 10px 27px;
+    gap: 10px;
+
+    width: 100%;
+    height: 51px;
+
+    border: 1px solid #000000;
+    border-radius: 51px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+.input-box label{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    font-size: 24px;
+}
+.error > input {
+    border: 2px solid red;
+    background-color: rgba(255,0,0,0.5);
+ }
+ 
+ .error > p {
+    color: red;
+ }
+ 
+.btn{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px;
+    gap: 10px;
+    color: #fff;
+    /* position: absolute; */
+    width: 430px;
+    height: 51px;
+    left: calc(50% - 444px/2);
+    top: 707px;
+    background-color: #619CBC;
+
+    border: none;
+    border-radius: 34px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    transition-duration: 0.5s;
+
+}
+
+.btn:hover, .btn:focus {
+    outline: 0;
+    cursor: pointer;
+    background-color: #66b0d9;
+ }
+
+.remember-forgot{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 135px; */
+    justify-content: space-between;
+    /* width: 422px; */
+    /* height: 31px; */
+}
+.remember-forgot label input{
+    margin-left: 15px;
+    accent-color: black;
+}
+.remember-forgot a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.login-register{
+    left: calc(50% - 261px/2);
+    top: 929px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.37);
+}
+.login-register p a{
+    color: #000000;
+    text-decoration: none;
+}
+.hero img{
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    left: 725px;
+    right: 0;
+    top: 0;
+    /*overflow: hidden;*/
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 230px;
+    height: 100%;
+    background-color: #619cbc;
+}
+.sidebar header{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    background-color: #51829c;
+}
+.sidebar ul li{
+    display: block;
+    height: 100%;
+    line-height: 65px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.dashboard{
+    position: absolute;
+    left: 400px;
+    font-size: 18px;
+    margin: 30px;
+
+}
+
+table { 
+    width: 70vw;
+    height: auto;
+    border-collapse: collapse; 
+    margin-bottom: 1vh;
+}
+
+tbody {
+    text-align: center;
+}
+
+thead tr {
+    border-bottom: 3px solid black;
+}
+
+tbody tr {
+    border-bottom: 1px solid black;
+}
+
+
+tr:nth-child(even), tr:nth-child(even) input{
+    background-color: #EAEAEA;
+}
+
+.pagination{
+    display: flex;
+    /* align-items: center; */
+    padding: 10px 40px;
+    margin: auto;
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.prev, .next{
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    color: #619cbc;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.crt{
+    position: absolute;
+    right: 0px;
+    font-size: 18px;
+    color: white;
+    background-color: #619cbc;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+

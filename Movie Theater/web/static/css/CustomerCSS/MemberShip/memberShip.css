@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.hidden {
+    display: none;
+}
+.side-bar    {
+    /* padding: 20px; */
+    height: 100vh;
+    width: 15vw;
+    background-color: #619cbc;
+}
+.side-bar img{
+    padding: 15px;
+    /* width: 30vh; */
+    background-color: #007cbe;
+    /* height: auto; */
+}
+.side-bar ul a{
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ul li:hover a{
+    color: #007cbe;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.header-membership {
+    padding: 40px;
+    margin-left: 25px;
+}
+
+.progress {
+    --progress: 0%;
+    width: 500px;
+    height: 20px;
+    margin: 12em;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.progress .bar {
+    width: var(--progress);
+    height: 100%;
+    background: linear-gradient(gold, #c85, gold);
+    background-repeat: repeat;
+    box-shadow: 0 0 10px 0px orange;
+    animation:
+        shine 4s ease-in infinite,
+        end 1s ease-out 1 7s;
+    transition: width 3s ease 3s;
+}
+
+@property  {
+    syntax: "<length>";
+    initial-value: 0%;
+    inherits: true;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 50px;
+    }
+}
+
+@keyframes end {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px 0px orange;
+    }
+
+    50% {
+        box-shadow: 0 0 15px 5px orange;
+    }
+}
+
+.col-main {
+    margin: 20px;
+    
+}
+
+.page-title h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cgv-point-wrap {
+    margin-top: 20px;
+}
+
+.title-my-account-cgv {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cgv-card-register {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.membercard-left {
+    margin-right: 20px;
+}
+
+.summary-membercard {
+    /* border: 1px solid #ccc; */
+
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 16vh;
+}
+
+.cgvgrade span {
+    font-weight: bold;
+}
+
+.cgvgrade strong {
+    margin-left: 5px;
+}
+
+.upgrade-account-type {
+    display: flex;
+    margin-top: 10px;
+}
+
+.upgrade-account-type img {
+    margin-right: 140px;
+
+}
+
+.upgrade-card {
+    background-color: #f2f2f2;
+    height: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.line-center-grade {
+    background-color: #aaa;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#myBar {
+    background-color: #ffff17;
+    height: 100%;
+    width: 4.1875%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.upgrade-account-amount {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.upgrade-member,
+.upgrade-vip,
+.upgrade-vvip {
+    display: inline-block;
+}
+
+.button-blue {
+    margin-top: 20px;
+}
+
+.form-instructions {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.form-list {
+    list-style: none;
+    padding: 0;
+}
+
+.form-list li {
+    margin-bottom: 10px;
+}
+
+label.required em {
+    color: red;
+}
+
+.input-box {
+    display: flex;
+}
+
+.input-text {
+    padding: 5px;
+    width: 60px;
+}
+
+.my-card {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 200px;
+}
+
+.text-my-card {
+    text-align: center;
+    margin-top: 390px;
+    margin-left: -445px;
+    font-size: 24px;
+    color: #c0c0c0;
+}
